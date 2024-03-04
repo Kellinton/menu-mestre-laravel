@@ -97,7 +97,7 @@
                             <div class="col-md-6">
                                 @foreach ($par as $prato)
                                 <div class="single_menu">
-                                    <img src="{{ asset('../assets/images/cardapio/' . $prato['fotoProduto']) }}" alt="burger">
+                                    <img src="{{ asset('../assets/images/produtos/comida/' . $prato['fotoProduto']) }}" alt="burger">
                                     <div class="menu_content">
                                         <h4>{{ $prato['nomeProduto'] }} <span>R${{ $prato['valorProduto'] }}</span></h4>
                                         <p>{{ $prato['descricaoProduto'] }}</p>
@@ -121,7 +121,7 @@
                             <div class="col-md-6">
                                 @foreach ($par as $massa)
                                 <div class="single_menu">
-                                    <img src="{{ asset('../assets/images/cardapio/' . $massa['fotoProduto']) }}" alt="massa">
+                                    <img src="{{ asset('../assets/images/produtos/massa/' . $massa['fotoProduto']) }}" alt="massa">
                                     <div class="menu_content">
                                         <h4>{{ $massa['nomeProduto'] }} <span>R${{ $massa['valorProduto'] }}</span></h4>
                                         <p>{{ $massa['descricaoProduto'] }}</p>
@@ -145,7 +145,7 @@
                             <div class="col-md-6">
                                 @foreach ($par as $bebida)
                                 <div class="single_menu">
-                                    <img src="{{ asset('../assets/images/cardapio/' . $bebida['fotoProduto']) }}" alt="bebida">
+                                    <img src="{{ asset('../assets/images/produtos/bebida/' . $bebida['fotoProduto']) }}" alt="bebida">
                                     <div class="menu_content">
                                         <h4>{{ $bebida['nomeProduto'] }} <span>R${{ $bebida['valorProduto'] }}</span></h4>
                                         <p>{{ $bebida['descricaoProduto'] }}</p>
@@ -169,7 +169,7 @@
                             <div class="col-md-6">
                                 @foreach ($par as $sobremesa)
                                 <div class="single_menu">
-                                    <img src="{{ asset('../assets/images/cardapio/' . $sobremesa['fotoProduto']) }}" alt="sobremesa">
+                                    <img src="{{ asset('../assets/images/produtos/sobremesa/' . $sobremesa['fotoProduto']) }}" alt="sobremesa">
                                     <div class="menu_content">
                                         <h4>{{ $sobremesa['nomeProduto'] }} <span>R${{ $sobremesa['valorProduto'] }}</span></h4>
                                         <p>{{ $sobremesa['descricaoProduto'] }}</p>
