@@ -3,7 +3,7 @@
 Description of the collaborative project developed as part of the Senac's integrator course for Back-End specialization.
 <p>
 
-<img width="800" height="400" src="/to_readme/dashboardIMG.png">
+<img width="800" height="400" src="/to_readme/dash.png">
 
 </p>
 
