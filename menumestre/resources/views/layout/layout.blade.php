@@ -43,7 +43,7 @@
 <body>
     <div class="hero_area">
         <div class="bg-box">
-            <img src="{{ asset('../assets/images/1.jpeg') }}" alt="">
+            <img src="{{ asset('../assets/images/site/fundo.webp') }}" alt="">
         </div>
     <!-- header section strats -->
     <header class="header_section">

@@ -139,8 +139,7 @@ a:focus {
 .bg-box img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+    background-size: cover;
 }
 
 .sub_page .hero_area {
@@ -660,7 +659,7 @@ a:focus {
 .about_section {
   /* background: #222831; */
   color: #ffffff;
-  background: url(../images/about\ 2.jpeg);
+  background: url(../images/site/sobre.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
