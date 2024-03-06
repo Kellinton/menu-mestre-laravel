@@ -81,7 +81,7 @@
                             <a class="card-ativo-btn" title="Ativo (Clique para desativar)"
                                 href="{{ route('dashboard.administrativo.cardapio.desativar', ['idProduto' => $item->idProduto]) }}"><i
                                     class="ri-eye-line"></i></a>
-                            <img src="{{ asset('../assets/images/produtos/'. $item['categoriaProduto'] . '/' . $item['fotoProduto']) }}">
+                            <img src="{{ asset('../assets/images/cardapio/'. $item['fotoProduto']) }}">
                             <h3>{{ $item->nomeProduto }}</h3>
                             <p>{{ $item->descricaoProduto }}</p>
                             <span class="card-price">R${{ $item->valorProduto }}</span>

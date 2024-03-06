@@ -123,7 +123,7 @@
                     <div class="pratos-elemento">
                         <div class="pratos-elemento-info" style="background-color: {{ $cor }}">
                             <div class="categoria-{{ $item['categoriaProduto'] }}" style="background-color: {{ $cor }}">
-                                <img src="{{ asset('../assets/images/produtos/'. $item['categoriaProduto'] . '/' . $item['fotoProduto']) }}">
+                                <img src="{{ asset('../assets/images/cardapio/' . $item['fotoProduto']) }}">
                             </div>
                             <div>
                                 <h4>{{ $item['nomeProduto'] }}</h4>
